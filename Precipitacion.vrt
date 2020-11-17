@@ -1,0 +1,7 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="precipitacion">
+        <SrcDataSource>precipitacion.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <GeometryField encoding="PointFromColumns" x="ESTE" y="NORTE" z="ANUAL"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
